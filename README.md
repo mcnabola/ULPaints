@@ -40,8 +40,7 @@ So I went ahead and modified it to only display points on a graph. My idea was e
 [Scatter plot representing each light point](graph.py)
 
 ## Realising PyGame is where I wanted to be
-After my realisation matplotlib wouldnt work for my needs I remembered all of my Java lectures of drawing squares and shapes through the code and thought, Hey I can do this on Python. Did a search of the web "Draw a rectangle on pygame". Sure enough I started off in the right direction with PyGame.
-[This stack overflow link gave me the start code for the next part]("https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle")
+After my realisation matplotlib wouldnt work for my needs I remembered all of my Java lectures of drawing squares and shapes through the code and thought, Hey I can do this on Python. Did a search of the web "Draw a rectangle on pygame". Sure enough I found [link]("https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle" "StackOverflow") and found the right direction with PyGame.
 
 I modified the code in the link along with the logic from the code higher up on coords_cli.py to draw multiple rectangles on a graph.
 [Code that prints a few rectangles in the shape of the UL lighted up wall](pygame_rect.py)
