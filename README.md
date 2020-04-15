@@ -53,6 +53,10 @@ I wanted to create a modified version of paint that only has blocks. So I need t
 I want a modified paint program not a paint program. Removing one feature from the program is hard but its a great way to learn about the overall program. I removed stickers and I removed the eraser and other features. 
 [Modified Paint program, paint.py](paint.py)
 
+## Making clickable PyGame Rects
+You remember above when I mentioned I created my first PyGame rectangles, well after learning a few things from paint.py I learnt about PyGame colors, PyGame clicking events and the PyGame collission detection functions.
+
+Once again the internet to the rescue and I discovered some PyGame code to handle mouseHovers and mouseClicks, [rect_clicky_change.py](rect_clicky_change.py)
 
 
 
