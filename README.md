@@ -1,6 +1,9 @@
 # ULPaints
 Python learning and discovery journal, whilst producing a semi-useful software.
 
+
+Show and Tell, 15/04/2020 for the UL Computer Society. This is more to show my mindset as I was going through this rather than actually producing an amazing piece of software at the end. [even though it is amazing :)]
+
 ## Objective 
 As you can see from the image below this is what a project to use a new different style of media sharing would look like. You could play games like tetris, you could use block text to write messives or create pixel art movies and stream them to the wall.
 
