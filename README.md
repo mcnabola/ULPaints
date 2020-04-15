@@ -47,7 +47,7 @@ I modified the code in the link along with the logic from the code higher up on 
 
 ## Back to my idea of Paint
 I wanted to create a modified version of paint that only has blocks. So I need to know how Paint programs work in order to create a different one. Again back to searching and I found a YouTube video with source code included.
-<img src="paint.png" alt="Youtube paint video" width="450" height="375"/>
+<img src="paint.PNG" alt="Youtube paint video" width="450" height="375"/>
 
 
 
