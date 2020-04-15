@@ -10,7 +10,7 @@ Eventually my thought process turned to how are you going to have someones idea 
 
 <img src="objective.jpg" alt="UL light up project" width="450" height="625"/>
 
-## First thing I did
+## First thing I did - Printing Co-Ordinates
 I wanted to create a grid that had the grid co-ordinates of each light panel for the full UL lighting up a wall face project.
 To do this I created a program that accepted two inputs from the terminal, width,height and it prints out the co-ordinates starting from 0,0 up to whatever. It does it in two ways having the origin in the top left and the traditional origin starting point at bottom left.
 
@@ -32,4 +32,25 @@ The file is [Link to the code, coords-cli.py](coords_cli.py)
 : 0,0 : 0,1 : 0,2 : 
 ~~~~
 
- 
+## Visualising Co-Ordinates on a graph
+I already had a [graph](old_graph.py) created from a previous project using matplotlib to graph two streams of values. I thought maybe I can just plot points on the graph and use this in some way. 
+
+So I went ahead and modified it to only display points on a graph. My idea was each point would be a light turned on.
+(I realised quickly after this wouldnt work.)
+[Scatter plot representing each light point](graph.py)
+
+## Realising PyGame is where I wanted to be
+After my realisation matplotlib wouldnt work for my needs I remembered all of my Java lectures of drawing squares and shapes through the code and thought, Hey I can do this on Python. Did a search of the web "Draw a rectangle on pygame". Sure enough I started off in the right direction with PyGame.
+[This stack overflow link gave me the start code for the next part]("https://stackoverflow.com/questions/19780411/pygame-drawing-a-rectangle")
+
+I modified the code in the link along with the logic from the code higher up on coords_cli.py to draw multiple rectangles on a graph.
+[Code that prints a few rectangles in the shape of the UL lighted up wall](pygame_rect.py)
+
+## 
+
+
+
+
+
+
+
