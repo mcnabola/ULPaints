@@ -46,7 +46,8 @@ I modified the code in the link along with the logic from the code higher up on 
 [Code that prints a few rectangles in the shape of the UL lighted up wall](pygame_rect.py)
 
 ## Back to my idea of Paint
-I wanted to create a modified version of paint that only has blocks. So I need to know how Paint programs work in order to create a different one. Again back to searching and I found a YouTube video with source code included. This is a Paint program created in PyGame by a 14 year old. 
+I wanted to create a modified version of paint that only has blocks. So I need to know how Paint programs work in order to create a different one. Again back to searching and I found a YouTube video with source code included. This is a Paint program created in PyGame by a 14 year old.
+
 <img src="paint.PNG" alt="Youtube paint video" width="450" height="375"/>
 
 ## Stripping the Paint program
@@ -57,6 +58,14 @@ I want a modified paint program not a paint program. Removing one feature from t
 You remember above when I mentioned I created my first PyGame rectangles, well after learning a few things from paint.py I learnt about PyGame colors, PyGame clicking events and the PyGame collission detection functions.
 
 Once again the internet to the rescue and I discovered some PyGame code to handle mouseHovers and mouseClicks, [rect_clicky_change.py](rect_clicky_change.py)
+
+This is what I have right now: 
+[pygame_rect_clickable.py](pygame_rect_clickable.py)
+
+## Whats left to do
+Add the color selector bar that you find in paint to choose the color to highlight a block
+Add saving state to a format that the server can take. 
+Add 'next frame' so you can create a movie like block art display. 
 
 
 
