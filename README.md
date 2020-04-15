@@ -46,8 +46,13 @@ I modified the code in the link along with the logic from the code higher up on 
 [Code that prints a few rectangles in the shape of the UL lighted up wall](pygame_rect.py)
 
 ## Back to my idea of Paint
-I wanted to create a modified version of paint that only has blocks. So I need to know how Paint programs work in order to create a different one. Again back to searching and I found a YouTube video with source code included.
+I wanted to create a modified version of paint that only has blocks. So I need to know how Paint programs work in order to create a different one. Again back to searching and I found a YouTube video with source code included. This is a Paint program created in PyGame by a 14 year old. 
 <img src="paint.PNG" alt="Youtube paint video" width="450" height="375"/>
+
+## Stripping the Paint program
+I want a modified paint program not a paint program. Removing one feature from the program is hard but its a great way to learn about the overall program. I removed stickers and I removed the eraser and other features. 
+[Modified Paint program, paint.py](paint.py)
+
 
 
 
