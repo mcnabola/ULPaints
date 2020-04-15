@@ -10,6 +10,26 @@ Eventually my thought process turned to how are you going to have someones idea 
 
 <img src="objective.jpg" alt="UL light up project" width="450" height="625"/>
 
-## Another step
+## First thing I did
+I wanted to create a grid that had the grid co-ordinates of each light panel for the full UL lighting up a wall face project.
+To do this I created a program that accepted two inputs from the terminal, width,height and it prints out the co-ordinates starting from 0,0 up to whatever. It does it in two ways having the origin in the top left and the traditional origin starting point at bottom left.
+
+The file is [Link to the code, coords-cli.py](/coords-cli.py)
+
+[code]
+Enter Grid Width and Height(Integer)(Use the comma): w,h3,5
+: 0,0 : 0,1 : 0,2 : 
+: 1,0 : 1,1 : 1,2 : 
+: 2,0 : 2,1 : 2,2 : 
+: 3,0 : 3,1 : 3,2 : 
+: 4,0 : 4,1 : 4,2 : 
+----------------
+: 5,0 : 5,1 : 5,2 : 
+: 4,0 : 4,1 : 4,2 : 
+: 3,0 : 3,1 : 3,2 : 
+: 2,0 : 2,1 : 2,2 : 
+: 1,0 : 1,1 : 1,2 : 
+: 0,0 : 0,1 : 0,2 : 
+[/code]
 
  
